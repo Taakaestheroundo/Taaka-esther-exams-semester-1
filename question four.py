@@ -1,6 +1,6 @@
 # (i)A python program that prints the following patterns.
-for x in range(1,12,123,1234,12345):
-    for z in range(1,12,123,1234,12345, x + 1,x + 12, x +123, x+ 1234, x+12345):
+for x in range(1, 6):
+    for z in range(1, x + 1,):
         print(z, end='')
     print()
 
